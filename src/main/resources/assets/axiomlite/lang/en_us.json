@@ -1,0 +1,13 @@
+{
+  "key.category.axiomlite.main": "Axiom Lite",
+  "key.axiomlite.toggle": "Toggle Editor",
+  "key.axiomlite.next": "Next Tool",
+  "key.axiomlite.rup": "Radius +",
+  "key.axiomlite.rdown": "Radius -",
+  "key.axiomlite.undo": "Undo",
+  "key.axiomlite.redo": "Redo",
+  "key.axiomlite.copy": "Copy Selection",
+  "key.axiomlite.paste": "Paste at Cursor",
+  "key.axiomlite.fill": "Fill Selection (held block)",
+  "key.axiomlite.clear": "Clear Selection"
+}

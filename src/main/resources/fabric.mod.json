@@ -1,21 +1,17 @@
 {
   "schemaVersion": 1,
-  "id": "livingworld",
+  "id": "axiomlite",
   "version": "${version}",
-  "name": "Living World Ultimate",
-  "description": "Client-side environmental immersion: ambient soundscapes, wind, weather particles, seasons and colour grading. Adds no mobs or entities.",
-  "authors": ["Living World Ultimate"],
+  "name": "Axiom Lite",
+  "description": "Lightweight client-side world editor: dig, carve, build, paint, smooth, marquee fill/copy/paste, undo/redo. Singleplayer only.",
+  "authors": ["you"],
   "license": "MIT",
   "environment": "client",
-  "entrypoints": {
-    "client": ["com.livingworld.LivingWorldClient"],
-    "modmenu": ["com.livingworld.compatibility.ModMenuIntegration"]
-  },
+  "entrypoints": { "client": ["dev.axiomlite.AxiomLiteClient"] },
   "depends": {
-    "fabricloader": "*",
+    "fabricloader": ">=0.19.5",
     "minecraft": "~26.3",
     "java": ">=25",
     "fabric-api": "*"
-  },
-  "suggests": { "modmenu": "*" }
+  }
 }
