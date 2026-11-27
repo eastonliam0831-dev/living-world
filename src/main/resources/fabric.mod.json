@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "livingworld",
+  "version": "${version}",
+  "name": "Living World Ultimate",
+  "description": "Client-side environmental immersion: ambient soundscapes, wind, weather particles, seasons and colour grading. Adds no mobs or entities.",
+  "authors": ["Living World Ultimate"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.livingworld.LivingWorldClient"],
+    "modmenu": ["com.livingworld.compatibility.ModMenuIntegration"]
+  },
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "suggests": { "modmenu": "*" }
+}

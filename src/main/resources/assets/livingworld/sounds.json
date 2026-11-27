@@ -1,0 +1,121 @@
+{
+  "wind_gentle": {
+    "sounds": [
+      "livingworld:wind/gentle_1",
+      "livingworld:wind/gentle_2",
+      "livingworld:wind/gentle_3"
+    ]
+  },
+  "wind_gust": {
+    "sounds": [
+      "livingworld:wind/gust_1",
+      "livingworld:wind/gust_2",
+      "livingworld:wind/gust_3"
+    ]
+  },
+  "wind_storm": {
+    "sounds": [
+      "livingworld:wind/storm_1",
+      "livingworld:wind/storm_2",
+      "livingworld:wind/storm_3"
+    ]
+  },
+  "wind_sand": {
+    "sounds": [
+      "livingworld:wind/sand_1",
+      "livingworld:wind/sand_2",
+      "livingworld:wind/sand_3"
+    ]
+  },
+  "leaves": {
+    "sounds": [
+      "livingworld:forest/leaves_1",
+      "livingworld:forest/leaves_2",
+      "livingworld:forest/leaves_3"
+    ]
+  },
+  "bird": {
+    "sounds": [
+      "livingworld:forest/bird_1",
+      "livingworld:forest/bird_2",
+      "livingworld:forest/bird_3"
+    ]
+  },
+  "crickets": {
+    "sounds": [
+      "livingworld:night/crickets_1",
+      "livingworld:night/crickets_2",
+      "livingworld:night/crickets_3"
+    ]
+  },
+  "owl": {
+    "sounds": [
+      "livingworld:night/owl_1",
+      "livingworld:night/owl_2",
+      "livingworld:night/owl_3"
+    ]
+  },
+  "frog": {
+    "sounds": [
+      "livingworld:night/frog_1",
+      "livingworld:night/frog_2",
+      "livingworld:night/frog_3"
+    ]
+  },
+  "wave": {
+    "sounds": [
+      "livingworld:water/wave_1",
+      "livingworld:water/wave_2",
+      "livingworld:water/wave_3"
+    ]
+  },
+  "river": {
+    "sounds": [
+      "livingworld:water/river_1",
+      "livingworld:water/river_2",
+      "livingworld:water/river_3"
+    ]
+  },
+  "drip": {
+    "sounds": [
+      "livingworld:cave/drip_1",
+      "livingworld:cave/drip_2",
+      "livingworld:cave/drip_3"
+    ]
+  },
+  "rumble": {
+    "sounds": [
+      "livingworld:cave/rumble_1",
+      "livingworld:cave/rumble_2",
+      "livingworld:cave/rumble_3"
+    ]
+  },
+  "thunder_far": {
+    "sounds": [
+      "livingworld:thunder/far_1",
+      "livingworld:thunder/far_2",
+      "livingworld:thunder/far_3"
+    ]
+  },
+  "thunder_roll": {
+    "sounds": [
+      "livingworld:thunder/roll_1",
+      "livingworld:thunder/roll_2",
+      "livingworld:thunder/roll_3"
+    ]
+  },
+  "underwater": {
+    "sounds": [
+      "livingworld:underwater/hum_1",
+      "livingworld:underwater/hum_2",
+      "livingworld:underwater/hum_3"
+    ]
+  },
+  "bubbles": {
+    "sounds": [
+      "livingworld:underwater/bubbles_1",
+      "livingworld:underwater/bubbles_2",
+      "livingworld:underwater/bubbles_3"
+    ]
+  }
+}
