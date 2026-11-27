@@ -1,3 +1,4 @@
+
 package com.livingworld.gui;
 
 import com.livingworld.LivingWorldClient;
@@ -12,7 +13,6 @@ import com.livingworld.particles.ParticleDirector;
 import com.livingworld.performance.PerformanceManager;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.ChatFormatting;
-import net.minecraft.Util;
 import net.minecraft.client.gui.GuiGraphicsExtractor;
 import net.minecraft.client.gui.components.AbstractWidget;
 import net.minecraft.client.gui.components.Button;
@@ -219,15 +219,15 @@ public final class LwScreen extends Screen {
                     afterBulkChange("Applied " + premade.get(selPremade) + ".");
                 }).bounds(x, y, w, 20).build())));
         rows.add(new Row("Reset everything to defaults", null, (x, y, w) -> {
-            boolean armed = Util.getMillis() < confirmUntil;
+            boolean armed = System.currentTimeMillis() < confirmUntil;
             put(Button.builder(Component.literal(armed ? "Click again to confirm" : "Reset all").withStyle(ChatFormatting.RED), b -> {
-                if (Util.getMillis() < confirmUntil) {
+                if (System.currentTimeMillis() < confirmUntil) {
                     backup();
                     Settings.resetAll();
                     confirmUntil = 0;
                     afterBulkChange("Everything reset (backup: autosave-before-change).");
                 } else {
-                    confirmUntil = Util.getMillis() + 4000;
+                    confirmUntil = System.currentTimeMillis() + 4000;
                     rebuildRows();
                 }
             }).bounds(x, y, w, 20).build());
@@ -327,7 +327,7 @@ public final class LwScreen extends Screen {
         g.fill(0, 0, SIDE_W, height, C_SIDE);
         g.fill(SIDE_W, 0, SIDE_W + 1, height, C_LINE);
         g.fill(SIDE_W + 1, 32, width, 33, C_LINE);
-        int pulse = (int) (110 + 70 * Math.sin(Util.getMillis() / 600.0));
+        int pulse = (int) (110 + 70 * Math.sin(System.currentTimeMillis() / 600.0));
         g.fill(0, 0, SIDE_W, 2, (pulse << 24) | 0x3DDC84);
         g.fill(SIDE_W + 8, 54, width - 8, height - 34, C_PANEL);
     }
